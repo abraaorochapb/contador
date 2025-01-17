@@ -11,7 +11,7 @@ function definircontagemregressiva(ano, mes, dia, horas, minutos) {
 }
 definircontagemregressiva(aa, mm, dd);
 
-var ocasiao = "Volta do meu momozinho";
+var ocasiao = "volta do meu momozinho";
 var message_on_ocasiao = "É HOJEEEEEE!!!";
 
 var contagemRegressiva_largura = "510px";
@@ -50,7 +50,7 @@ function countdown() {
   var dmin = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   var dsec = Math.floor((diff % (1000 * 60)) / 1000);
 
-  contagemcruzada.innerHTML = `${abrirtags}${dday} dias, ${dhour} horas, ${dmin} minutos e ${dsec} segundos para a <b>${ocasiao}</b>${fechartags}`;
+  contagemcruzada.innerHTML = `${abrirtags}${dday} dias, ${dhour} horas, ${dmin} minutos e ${dsec} segundos para a ${ocasiao}${fechartags}`;
   contagemcruzada.classList.add("countdown-style");
 
   setTimeout(countdown, 1000);
