@@ -11,7 +11,7 @@ function definircontagemregressiva(ano, mes, dia, horas, minutos) {
 }
 definircontagemregressiva(aa, mm, dd);
 
-var ocasiao = "volta do meu momozinho";
+var ocasiao = "volta do meu momozinho 😔😔";
 var message_on_ocasiao = "É HOJEEEEEE!!!";
 
 var contagemRegressiva_largura = "510px";

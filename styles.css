@@ -3,17 +3,56 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
+    background-color: #c89df0;
 }
 
 .countdown-style {
     font-family: Verdana;
     font-size: 20px;
     color: #000000;
-    padding: 24rem 0rem;
+    padding: 8rem 0rem;
     border-radius: 5px;
     text-align: center;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fotos ul {
+    text-decoration: none;
+    list-style: none;
+}
+.fotos ul li {
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.img {
+    border-radius: 80rem;
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    border: none;
+}
+
+.fotos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 700px) {
+    .fotos-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
   
 
   
