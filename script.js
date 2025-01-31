@@ -1,8 +1,8 @@
 var aa = 2025;
 var mm = 1;
 var dd = 31;
-var hh = 15;
-var mi = 30;
+var hh = 16;
+var mi = 0;
 
 function definircontagemregressiva(ano, mes, dia, horas, minutos) {
   yr = ano;
@@ -38,9 +38,11 @@ function countdown() {
 
   if (diff <= 0) {
     if (diff > -86400000) {
-      contagemcruzada.innerHTML = abrirtags + message_on_ocasiao + fechartags;
+      contagemcruzada.innerHTML = abrirtags + "Já estamos de denguinho 😌<br> amo minha namorada" + fechartags;
+      contagemcruzada.classList.add("countdown-style");
     } else {
-      contagemcruzada.innerHTML = abrirtags + "JÁ CHEGOOOOOOOOOU" + fechartags;
+      contagemcruzada.innerHTML = abrirtags + "Já estamos de denguinho 😌<br> amo minha namorada" + fechartags;
+      contagemcruzada.classList.add("countdown-style");
     }
     return;
   }
